@@ -79,10 +79,17 @@ Now open 👉 http://localhost:3000
 ##📑 Available Topics
 
 💻 Technology
+<br>
 💼 Business
+<br>
 🔬 Science
+<br>
 🏥 Health
+<br>
 ⚽ Sports
+<br>
 🎬 Entertainment
+<br>
 🏛️ Politics
+<br>
 🌱 Environment
