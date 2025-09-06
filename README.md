@@ -66,7 +66,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 npm run dev
 Now open 👉 http://localhost:3000
 
-###📌 Usage
+### 📌 Usage
 
 1. Select a Topic – Choose from 8 different news categories on the home page
 
@@ -76,7 +76,7 @@ Now open 👉 http://localhost:3000
 
 4. Read Full Articles – Click "Read Full" to open the complete article in a new tab
 
-##📑 Available Topics
+### 📑 Available Topics
 
 💻 Technology
 <br>
