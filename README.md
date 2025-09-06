@@ -43,31 +43,34 @@ Built with **Next.js**, **TypeScript**, and **Ollama**.
 ```bash
 git clone https://github.com/Rajveersinghsisodiya19/ai-content-curator.git
 cd ai-content-curator
+```
 
 2. **Install dependencies**  
-
+```bash
 npm install
-
+```
 
 3. **Set up environment variables**
-
+```bash
 cp .env.example .env.local
-
+```
 
 4. **Edit .env.local and add your API keys**
-
+```bash
 NEWS_API_KEY=your_news_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
+```
 
 5. Install and run Ollama
   Download and install Ollama from here.
   Then pull the Llama 3.2:latest model:
-
+```bash
 ollama pull llama3.2:latest
-
+```
 6. **Run the development server**
-
+```bash
 npm run dev
+```
 Now open 👉 http://localhost:3000
 
 ### 📌 Usage
