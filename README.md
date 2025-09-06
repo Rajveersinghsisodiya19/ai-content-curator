@@ -58,7 +58,6 @@ cp .env.example .env.local
 4. **Edit .env.local and add your API keys**
 ```bash
 NEWS_API_KEY=your_news_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 5. Install and run Ollama
