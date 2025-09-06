@@ -1,14 +1,14 @@
 # AI Content Curator
 
-A modern web application that uses AI to **curate and summarize news content** from various topics.  
-Built with **Next.js**, **TypeScript**, and **OpenAI's GPT models**.
+A modern web application that uses **AI (Llama 3.2 via Ollama)** to curate and summarize news content from various topics.  
+Built with **Next.js**, **TypeScript**, and **Ollama**.
 
 ---
 
 ## ✨ Features
 
 - 🎯 **Topic-based Content Curation** – Choose from 8 different news categories  
-- 🤖 **AI-Powered Summarization** – Get concise summaries of news articles using OpenAI  
+- 🤖 **AI-Powered Summarization** – Get concise summaries of news articles using Llama 3.2 (via Ollama)  
 - 📱 **Responsive Design** – Beautiful, modern UI that works on all devices  
 - ⚡ **Real-time Updates** – Latest news from NewsAPI  
 - 🎨 **Modern UI/UX** – Built with Tailwind CSS and Lucide React icons  
@@ -21,8 +21,8 @@ Built with **Next.js**, **TypeScript**, and **OpenAI's GPT models**.
 - **Styling**: Tailwind CSS 4  
 - **Icons**: Lucide React  
 - **HTTP Client**: Axios  
-- **AI**: OpenAI GPT-3.5-turbo  
-- **News API**: NewsAPI.org  
+- **AI**: [Ollama](https://ollama.ai) (Llama 3.2:latest)  
+- **News API**: [NewsAPI.org](https://newsapi.org/)  
 
 ---
 
@@ -32,18 +32,17 @@ Built with **Next.js**, **TypeScript**, and **OpenAI's GPT models**.
 
 - Node.js 18+  
 - npm or yarn  
-- NewsAPI key → [Get one here](https://newsapi.org/)  
-- OpenAI API key → [Get one here](https://platform.openai.com/)  
+- [NewsAPI key](https://newsapi.org/)  
+- [Ollama](https://ollama.ai) installed locally  
 
 ---
 
 ### 🔧 Installation
 
 1. **Clone the repository**  
-
-git clone https://github.com/Rajveersinghsisodiya19/ai-content-curator/edit/main/
+```bash
+git clone https://github.com/Rajveersinghsisodiya19/ai-content-curator.git
 cd ai-content-curator
-
 
 2. **Install dependencies**  
 
@@ -60,8 +59,13 @@ cp .env.example .env.local
 NEWS_API_KEY=your_news_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
 
+5. Install and run Ollama
+  Download and install Ollama from here.
+  Then pull the Llama 3.2:latest model:
 
-5. **Run the development server**
+ollama pull llama3.2:latest
+
+6. **Run the development server**
 
 npm run dev
 Now open 👉 http://localhost:3000
