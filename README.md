@@ -1,78 +1,88 @@
-AI Content Curator
+# AI Content Curator
 
-AI Content Curator is a modern web application that helps you generate, summarize, and organize content using AI.
-Built with Next.js, TypeScript, and Tailwind CSS, it integrates the OpenAI API to deliver high-quality AI-powered content for blogs, articles, or personal projects.
+A modern web application that uses AI to **curate and summarize news content** from various topics.  
+Built with **Next.js**, **TypeScript**, and **OpenAI's GPT models**.
 
-✨ Features
+---
 
-🤖 AI-Powered Content Generation – Create new content with the help of OpenAI.
+## ✨ Features
 
-📑 Content Summarization – Turn long text into concise summaries.
+- 🎯 **Topic-based Content Curation** – Choose from 8 different news categories  
+- 🤖 **AI-Powered Summarization** – Get concise summaries of news articles using OpenAI  
+- 📱 **Responsive Design** – Beautiful, modern UI that works on all devices  
+- ⚡ **Real-time Updates** – Latest news from NewsAPI  
+- 🎨 **Modern UI/UX** – Built with Tailwind CSS and Lucide React icons  
 
-🎨 Clean UI – Responsive and modern design powered by Tailwind CSS.
+---
 
-⚡ Fast & Scalable – Built with Next.js for optimized performance.
+## 🛠 Tech Stack
 
-🔒 Environment-Based Config – Secure API key management via .env.
+- **Frontend**: Next.js 15, React 19, TypeScript  
+- **Styling**: Tailwind CSS 4  
+- **Icons**: Lucide React  
+- **HTTP Client**: Axios  
+- **AI**: OpenAI GPT-3.5-turbo  
+- **News API**: NewsAPI.org  
 
-🛠️ Tech Stack
+---
 
-Framework: Next.js
- (React)
+## 🚀 Getting Started
 
-Language: TypeScript
+### ✅ Prerequisites
 
-Styling: Tailwind CSS
+- Node.js 18+  
+- npm or yarn  
+- NewsAPI key → [Get one here](https://newsapi.org/)  
+- OpenAI API key → [Get one here](https://platform.openai.com/)  
 
-AI API: OpenAI
+---
 
-HTTP Client: Axios
+### 🔧 Installation
 
-Linting/Formatting: ESLint
+1. **Clone the repository**  
 
-Package Manager: npm
-
-⚙️ Setup & Installation
-
-Follow these steps to run the project locally:
-
-Clone the repository
-
-git clone https://github.com/your-username/ai-content-curator.git
+git clone https://github.com/Rajveersinghsisodiya19/ai-content-curator/edit/main/
 cd ai-content-curator
 
 
-Install dependencies
+2. **Install dependencies**  
 
 npm install
 
 
-Setup environment variables
-Create a .env.local file in the root directory and add your keys (check .env.example for reference):
+3. **Set up environment variables**
 
-OPENAI_API_KEY=your_openai_api_key
+cp .env.example .env.local
 
 
-Run the development server
+4. **Edit .env.local and add your API keys**
+
+NEWS_API_KEY=your_news_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+
+
+5. **Run the development server**
 
 npm run dev
+Now open 👉 http://localhost:3000
 
+###📌 Usage
 
-Open http://localhost:3000
- in your browser 🎉
+1. Select a Topic – Choose from 8 different news categories on the home page
 
-📂 Project Structure
-ai-content-curator/
-├── app/               # Next.js App Router pages & components
-├── types/             # TypeScript types
-├── public/            # Static assets
-├── tailwind.config.js # Tailwind CSS config
-├── package.json       # Dependencies & scripts
-└── .env.example       # Example environment variables
+2. Browse News – View the latest articles related to your selected topic
 
-🚀 Deployment
+3. AI Summarization – Click the "Summarize" button on any article to get an AI-generated summary
 
-The project can be easily deployed to Vercel (recommended for Next.js apps) or any Node.js hosting service:
+4. Read Full Articles – Click "Read Full" to open the complete article in a new tab
 
-npm run build
-npm start
+##📑 Available Topics
+
+💻 Technology
+💼 Business
+🔬 Science
+🏥 Health
+⚽ Sports
+🎬 Entertainment
+🏛️ Politics
+🌱 Environment
